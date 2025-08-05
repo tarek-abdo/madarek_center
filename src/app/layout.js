@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'مركز مدارك لدراسة الإسلام الحضاري',
+  icons: {
+    icon: '/favicon.jpg',
+  },
   description: 'مركز مخصص لدراسة الإسلام الحضاري من خلال وجهات نظر نقدية، وفكر معاصر، وبحث علمي.',
   keywords: 'دراسات إسلامية، الإسلام الحضاري، وجهات نظر نقدية، فكر معاصر، مركز بحثي',
 }
@@ -16,6 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.jpg" type="image/x-icon" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider>
           <div className="min-h-screen flex flex-col">
