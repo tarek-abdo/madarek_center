@@ -1,6 +1,5 @@
 {
-  "/events/page": "app/events/page.js",
-  "/category/critical-perspectives/page": "app/category/critical-perspectives/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/category/studies-analyses/page": "app/category/studies-analyses/page.js",
   "/publications/page": "app/publications/page.js",
   "/about/page": "app/about/page.js",

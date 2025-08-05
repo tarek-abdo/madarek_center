@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const authors = [
   {
@@ -72,8 +72,22 @@ const authors = [
 ]
 export default function AuthorsSection() {
   const [current, setCurrent] = useState(0);
-  const visibleCount = 3;
-  const maxIndex = authors.length - visibleCount;
+  // Responsive visible count
+  const [visibleCount, setVisibleCount] = useState(3);
+
+  // Update visibleCount based on screen size
+  useEffect(() => {
+    const updateCount = () => {
+      if (window.innerWidth < 640) {
+        setVisibleCount(1);
+      } else {
+        setVisibleCount(3);
+      }
+    };
+    updateCount();
+    window.addEventListener('resize', updateCount);
+    return () => window.removeEventListener('resize', updateCount);
+  }, []);
 
   const handlePrev = () => {
     setCurrent((prev) => (prev === 0 ? authors.length - 1 : prev - 1));
@@ -96,7 +110,7 @@ export default function AuthorsSection() {
 
         {/* Cards */}
         <div className="flex gap-8 w-full max-w-5xl">
-          {[0, 1, 2].map((offset) => {
+          {Array.from({ length: visibleCount }).map((_, offset) => {
             const idx = (current + offset) % authors.length;
             const author = authors[idx];
             return (
