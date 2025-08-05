@@ -62,11 +62,11 @@ export default function HomePage() {
       </section>
 
       {/* قسم مجلة ما بعد الطوفان */}
-      <section className="py-16 bg-magazine-background" dir="rtl">
+      {/* <section className="py-16 bg-magazine-background" dir="rtl">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <PostDelugeSection />
         </div>
-      </section>
+      </section> */}
 
       {/* قسم المؤلفين */}
       <section className="py-16 bg-white dark:bg-dark-surface" dir="rtl">

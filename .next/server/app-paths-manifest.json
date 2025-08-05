@@ -1,7 +1,9 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js",
+  "/events/page": "app/events/page.js",
+  "/category/critical-perspectives/page": "app/category/critical-perspectives/page.js",
+  "/category/studies-analyses/page": "app/category/studies-analyses/page.js",
+  "/publications/page": "app/publications/page.js",
   "/about/page": "app/about/page.js",
-  "/post/[slug]/page": "app/post/[slug]/page.js"
+  "/category/geopolitics/page": "app/category/geopolitics/page.js",
+  "/page": "app/page.js"
 }
