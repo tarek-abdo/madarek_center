@@ -87,14 +87,14 @@ export default function FeaturedSlider() {
           {/* Content */}
           <div className="relative h-full flex items-center" dir="rtl">
             <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full" dir="rtl">
-              <div className="max-w-3xl" dir="rtl">
-                <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary text-white mb-4">
+              <div className="max-w-4xl" dir="rtl">
+                <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary text-white mb-4 ">
                   {post.category}
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                  {post.title}
-                </h1>
-                <p className="text-xl text-white/90 mb-8 leading-relaxed">
+                <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mt-4 mb-6 leading-title">
+  {post.title}
+</h1>
+                <p className="text-xl text-white/90 mb-8 ">
                   {post.excerpt}
                 </p>
                 <div className="flex items-center gap-6 mb-8 text-white/80" dir="rtl">

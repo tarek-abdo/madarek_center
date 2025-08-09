@@ -26,6 +26,9 @@ module.exports = {
         'dark-surface': '#2d2d2d',
         'dark-text': '#ffffff',
       },
+      lineHeight: {
+        'title': '7', // custom spacing
+      },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         serif: ['Merriweather', 'serif'],

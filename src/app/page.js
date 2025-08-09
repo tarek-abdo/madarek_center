@@ -20,7 +20,7 @@ const currentIssue = {
 }
 export default function HomePage() {
   return (
-    <div className="min-h-screen font-amiri" dir="rtl">
+    <div className="min-h-screen font-kufi" dir="rtl">
       {/* قسم البطل مع السلايدر المميز */}
       <section className="relative" dir="rtl">
         <FeaturedSlider />

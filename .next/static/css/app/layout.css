@@ -1236,8 +1236,8 @@ body:is(.dark *){
 .text-center{
   text-align: center;
 }
-.font-amiri{
-  font-family: Amiri, serif;
+.font-kufi{
+  font-family: Noto Kufi Arabic, sans-serif;
 }
 .text-2xl{
   font-size: 1.5rem;
@@ -1290,8 +1290,8 @@ body:is(.dark *){
 .leading-relaxed{
   line-height: 1.625;
 }
-.leading-tight{
-  line-height: 1.25;
+.leading-title{
+  line-height: 7;
 }
 .text-gray-400{
   --tw-text-opacity: 1;
@@ -1423,69 +1423,84 @@ body:is(.dark *){
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
 
+
 .hover\:-translate-y-2:hover{
   --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+
 .hover\:bg-\[\#F76C5E\]\/90:hover{
   background-color: rgb(247 108 94 / 0.9);
 }
+
 
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 
+
 .hover\:bg-gray-200:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
 }
+
 
 .hover\:bg-gray-50:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
+
 .hover\:bg-magazine-primary\/90:hover{
   background-color: rgb(41 68 51 / 0.9);
 }
 
+
 .hover\:bg-primary\/90:hover{
   background-color: rgb(255 118 51 / 0.9);
 }
+
 
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+
 .hover\:bg-white\/30:hover{
   background-color: rgb(255 255 255 / 0.3);
 }
+
 
 .hover\:text-magazine-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(41 68 51 / var(--tw-text-opacity, 1));
 }
 
+
 .hover\:text-magazine-secondary\/80:hover{
   color: rgb(203 126 97 / 0.8);
 }
+
 
 .hover\:text-orange-500:hover{
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
 }
 
+
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(255 118 51 / var(--tw-text-opacity, 1));
 }
 
+
 .hover\:text-primary\/80:hover{
   color: rgb(255 118 51 / 0.8);
 }
+
 
 .hover\:shadow-2xl:hover{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -1493,14 +1508,17 @@ body:is(.dark *){
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+
 .focus\:border-transparent:focus{
   border-color: transparent;
 }
+
 
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 
 .focus\:ring-2:focus{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
@@ -1508,10 +1526,12 @@ body:is(.dark *){
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+
 .focus\:ring-primary:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(255 118 51 / var(--tw-ring-opacity, 1));
 }
+
 
 .group:hover .group-hover\:scale-105{
   --tw-scale-x: 1.05;
@@ -1519,95 +1539,114 @@ body:is(.dark *){
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+
 .group:hover .group-hover\:scale-110{
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+
 .group:hover .group-hover\:text-primary{
   --tw-text-opacity: 1;
   color: rgb(255 118 51 / var(--tw-text-opacity, 1));
 }
 
+
 .group:hover .group-hover\:\[animation-play-state\:paused\]{
   animation-play-state: paused;
 }
+
 
 .dark\:border-gray-600:is(.dark *){
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
 }
 
+
 .dark\:border-gray-800:is(.dark *){
   --tw-border-opacity: 1;
   border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));
 }
+
 
 .dark\:bg-dark-surface:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(45 45 45 / var(--tw-bg-opacity, 1));
 }
 
+
 .dark\:bg-gray-700:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
 }
+
 
 .dark\:bg-gray-800:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 
+
 .dark\:bg-gray-900:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
+
 
 .dark\:text-gray-100:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity, 1));
 }
 
+
 .dark\:text-gray-200:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
+
 
 .dark\:text-gray-300:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity, 1));
 }
 
+
 .dark\:text-gray-400:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
+
 
 .dark\:text-gray-500:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
+
 .dark\:text-primary:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(255 118 51 / var(--tw-text-opacity, 1));
 }
+
 
 .dark\:text-white:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+
 .dark\:hover\:bg-gray-700:hover:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
 }
 
+
 .dark\:hover\:bg-gray-800:hover:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
+
 
 @media (min-width: 640px){
   .sm\:mb-12{
@@ -1660,6 +1699,7 @@ body:is(.dark *){
   }
 }
 
+
 @media (min-width: 768px){
   .md\:h-auto{
     height: auto;
@@ -1694,11 +1734,12 @@ body:is(.dark *){
   .md\:text-right{
     text-align: right;
   }
-  .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
+
 
 @media (min-width: 1024px){
   .lg\:grid-cols-2{
@@ -1718,9 +1759,9 @@ body:is(.dark *){
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 } 
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
