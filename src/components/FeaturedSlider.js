@@ -91,7 +91,7 @@ export default function FeaturedSlider() {
                 <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary text-white mb-4 ">
                   {post.category}
                 </div>
-                <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mt-4 mb-6 leading-title">
+                <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mt-4 mb-6 leading-relaxed ">
   {post.title}
 </h1>
                 <p className="text-xl text-white/90 mb-8 ">

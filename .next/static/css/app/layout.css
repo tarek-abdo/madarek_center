@@ -1293,6 +1293,9 @@ body:is(.dark *){
 .leading-title{
   line-height: 7;
 }
+.leading-tight{
+  line-height: 1.25;
+}
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
