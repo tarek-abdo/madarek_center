@@ -85,9 +85,9 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <div className="flex items-center space-x-2 flex-row">
               <div className='flex items-center justify-center'>
-                <div style={{maxWidth: 50, height: 50}} className='flex mx-0'>
+                {/* <div style={{maxWidth: 50, height: 50}} className='flex mx-0'>
                   <img src="/image/logo4.png" alt="logo" width={40} height={40} />
-                </div>
+                </div> */}
                 <div style={{maxWidth: 50, height: 50}} className='flex mx-0'>
                   <img src="/image/slogan.png" alt="logo" width={40} height={40} />
                 </div>

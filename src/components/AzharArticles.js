@@ -7,7 +7,7 @@ const articles = [
     title: "تاثير الصراع الفلسطيني الإسرائيلي على الهوية الثقافية",
     author: "مايكل ماهر",
     date: "21/12/2025",
-    image: "/image/writer1.jpeg",
+    image: "/image/article1.jpeg",
     authorImage: "/image/writer1.jpeg",
   },
   {
@@ -16,7 +16,7 @@ const articles = [
     title: "الادب الاسلامي في العصر الحديث: من التراث إلى التجديد",
     author: "حسام الدين السيد",
     date: "10/10/2025",
-    image: "/image/writer2.jpeg",
+    image: "/image/article2.jpeg",
     authorImage: "/image/writer2.jpeg",
   },
   {
@@ -25,7 +25,7 @@ const articles = [
     title:"هل غادر الشعراء من متردم؟",
     author: "أروى عاصم",
     date: "01/04/2025",
-    image: "/image/writer3.jpeg",
+    image: "/image/article3.jpeg",
     authorImage: "/image/writer3.jpeg",
   },
   {
@@ -34,7 +34,7 @@ const articles = [
     title: "الاسلام في العصر الرقمي: تحديات وفرص",
     author: "أروى عاصم",
     date: "01/04/2025",
-    image: "/image/writer4.jpeg",
+    image: "/image/article4.jpeg",
     authorImage: "/image/writer4.jpeg",
   },
   {
@@ -43,7 +43,7 @@ const articles = [
     title: "اقلام عربية: كيف يغير الكتاب العرب المشهد الأدبي العالمي",
     author: "أروى عاصم",
     date: "01/04/2025",
-    image: "/image/writer5.jpeg",
+    image: "/image/article5.jpeg",
     authorImage: "/image/writer5.jpeg",
   },
   {
@@ -52,7 +52,7 @@ const articles = [
     title: "الاسلام بين التقليد والتجديد: قراءة في الفكر الإسلامي المعاصر",
     author: "أروى عاصم",
     date: "01/04/2025",
-    image: "/image/writer6.jpeg",
+    image: "/image/article6.jpeg",
     authorImage: "/image/writer6.jpeg",
   },
 ];

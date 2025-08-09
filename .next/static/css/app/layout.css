@@ -1239,9 +1239,6 @@ body:is(.dark *){
 .font-amiri{
   font-family: Amiri, serif;
 }
-.font-kufi{
-  font-family: Noto Kufi Arabic, sans-serif;
-}
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;

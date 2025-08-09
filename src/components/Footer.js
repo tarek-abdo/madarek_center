@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex justify-center items-center" dir="rtl">
               <div className="rounded-full w-32 h-32 flex items-center justify-center" dir="rtl">
                 {/* Replace with actual logo if available */}
-                <img src="/image/logo4.png" alt="logo" width={100} height={100} />
+                <img src="/image/slogan.png" alt="logo" width={100} height={100} />
                 </div>
             </div>
             <div className="flex flex-col gap-4 text-gray-600 dark:text-gray-100 text-xl font-medium" dir="rtl">

@@ -1,7 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/category/articles/page": "app/category/articles/page.js",
-  "/publications/magazine/page": "app/publications/magazine/page.js",
-  "/category/geopolitics/page": "app/category/geopolitics/page.js",
-  "/publications/books/page": "app/publications/books/page.js"
+  "/page": "app/page.js"
 }
