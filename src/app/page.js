@@ -56,7 +56,7 @@ export default function HomePage() {
               <AzharArticles />
             </div> 
       </section> */}
-      <section className="py-10 sm:py-12 md:py-16 bg-white dark:bg-gray-900" dir="rtl">
+      <section className="py-10 sm:py-12 md:py-16 bg-magazine-background  dark:bg-gray-900" dir="rtl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-4">
@@ -91,7 +91,7 @@ export default function HomePage() {
         </div>
       </section>
        {/* قسم مجلة ما بعد الطوفان */}
-      <section className="py-4 bg-magazine-background dark:bg-gray-900" dir="rtl">
+      <section className="py-4 bg-magazine-background dark:bg-gray-900 " dir="rtl">
           <div className="max-w-7xl mx-auto px-6 lg:px-8" dir="rtl">
             <Magazine />
           </div> 

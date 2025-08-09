@@ -3,7 +3,7 @@ import { Rss, Linkedin, Instagram, Twitter, Facebook } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#ffffff] dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-2 pb-2" dir="rtl">
+    <footer className="font-kufi bg-[#ffffff] dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-2 pb-2" dir="rtl">
       <div className="mx-auto max-w-full " dir="rtl">
         {/* Social Icons */}
         <div className="flex justify-center gap-6 mb-6 border-b-gray-400 w-100 p-3" dir="rtl">

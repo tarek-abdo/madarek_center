@@ -65,7 +65,7 @@ export default function Header() {
 
   return (
     <header
-      className="bg-white dark:bg-dark-surface shadow-lg sticky top-0 z-50 " dir='rtl'
+      className="bg-white dark:bg-dark-surface shadow-lg sticky top-0 z-50 font-kufi" dir='rtl'
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between min-h-[50px] py-2 lg:px-1" aria-label="Global">
         {/* Right: Toggle Button */}

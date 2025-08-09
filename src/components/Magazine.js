@@ -45,7 +45,7 @@ export default function Magazine() {
                 <h3 className="text-2xl font-bold text-white mb-2">{currentIssue.title}</h3>
                 <p className="text-white/90 mb-4">{currentIssue.theme}</p>
                 <div className="flex gap-3">
-                  <Link href='/publications' className="btn-primary">
+                  <Link href='/publications/magazine' className="btn-primary">
                     المحتويات
                   </Link>
                   <Link href="/magazine/current/buy" className="btn-outline border-white text-white hover:bg-white hover:text-magazine-primary">

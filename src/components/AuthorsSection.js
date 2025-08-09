@@ -114,7 +114,7 @@ export default function AuthorsSection() {
             const idx = (current + offset) % authors.length;
             const author = authors[idx];
             return (
-              <div key={author.id} className="bg-white rounded-xl shadow-md flex flex-col items-center px-8 py-8 w-full max-w-sm mx-auto">
+              <div key={author.id} className="bg-white rounded-xl shadow-lg flex flex-col items-center px-8 py-8 w-full max-w-sm mx-auto">
                 <div className="w-24 h-24 mb-4">
                   <Image
                     src={author.image}

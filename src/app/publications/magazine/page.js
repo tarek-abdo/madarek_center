@@ -81,7 +81,7 @@ const advisoryBoard = [
 
 export default function PostDelugeSection() {
   return (
-    <section className=" bg-magazine-background dark:bg-dark-surface" dir="rtl ">
+    <section className=" bg-magazine-background dark:bg-dark-surface font-kufi" dir="rtl ">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="py-8" dir="rtl">
           {/* Header */}
