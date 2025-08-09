@@ -29,6 +29,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
+        amiri: ['Amiri', 'serif'],
+        archivo: ['Archivo', 'sans-serif'],
+        kufi: ['Noto Kufi Arabic', 'sans-serif']
       },
     },
   },

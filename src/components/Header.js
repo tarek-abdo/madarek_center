@@ -28,7 +28,7 @@ const navigationEn = [
 
 const navigationAr = [
   { name: 'الرئيسية', href: '/' },
-  { name: 'الدراسات الإسلامية', href: '/category/islamic-studies', submenu: [] },
+  { name: "نقاشات فرعية", href: '/category/islamic-studies', submenu: [] },
   { name: 'رؤى نقدية', href: '/category/critical-perspectives', submenu: [
     { name: 'خرائط الفكر المعاصر', href: '/category/contemporary-thought-maps' },
     { name: 'أوراق نقدية', href: '/category/critical-papers' },
@@ -36,11 +36,14 @@ const navigationAr = [
   ] },
   { name: 'دراسات وتحليلات', href: '/category/studies-analyses', submenu: [
     { name: 'دراسات ما بعد الاستعمار', href: '/category/post-colonial-studies' },
-    { name: 'الجغرافيا السياسية', href: '/category/geopolitics' },
-    { name: 'دراسات المستقبل', href: '/category/future-studies' }
+    { name: "جيوبولتيك", href: '/category/geopolitics' },
+    { name: 'دراسات استشرافية', href: '/category/future-studies' }
   ] },
   { name: 'مقالات', href: '/category/articles' },
-  { name: 'اصدارات', href: '/publications' },
+  { name: 'اصدارات', href: '', submenu: [
+    { name: 'مجلة ما بعد الطوفان', href: '/publications/magazine' },
+    { name: 'كتب', href: '/publications/books' },
+  ]},
   { name: 'فعاليات', href: '/events' },
   { name: 'حول', href: '/about' },
 ];
@@ -51,10 +54,10 @@ export default function Header() {
   const { theme, toggleTheme } = useTheme()
   const language = 'ar';
 
-  useEffect(() => {
-    document.documentElement.lang = 'ar';
-    document.documentElement.dir = 'rtl';
-  }, []);
+  // useEffect(() => {
+  //   document.documentElement.lang = 'ar';
+  //   document.documentElement.dir = 'rtl';
+  // }, []);
 
   const navigation = navigationAr;
   const siteTitle = ' مدارك';
@@ -62,7 +65,7 @@ export default function Header() {
 
   return (
     <header
-      className="bg-white dark:bg-dark-surface shadow-lg sticky top-0 z-50 dir='rtl'"
+      className="bg-white dark:bg-dark-surface shadow-lg sticky top-0 z-50 " dir='rtl'
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between min-h-[50px] py-2 lg:px-1" aria-label="Global">
         {/* Right: Toggle Button */}
@@ -82,14 +85,17 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <div className="flex items-center space-x-2 flex-row">
               <div className='flex items-center justify-center'>
-                <div style={{maxWidth: 50, height: 50}} className='flex mx-2'>
-                  <img src="/image/logo1.jpg" alt="logo" width={40} height={40} />
+                <div style={{maxWidth: 50, height: 50}} className='flex mx-0'>
+                  <img src="/image/logo4.png" alt="logo" width={40} height={40} />
                 </div>
-                <h4
+                <div style={{maxWidth: 50, height: 50}} className='flex mx-0'>
+                  <img src="/image/slogan.png" alt="logo" width={40} height={40} />
+                </div>
+                {/* <h4
                   className={`text-2xl font-bold text-gradient text-center${language === 'ar' ? ' font-noto-kufi-arabic' : ''}`}
                 >
                   {siteTitle}
-                </h4>
+                </h4> */}
               </div>
             </div>
           </Link>
